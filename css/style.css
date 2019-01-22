@@ -9,19 +9,17 @@ p {
   font-family: source code pro;
   font-size: 16px;
   text-align: center;
-  margin-bottom: -0.6em;
+  margin-bottom: -0.5em;
   color: grey;
 }
 
-
-
 body {
-    display: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+    min-height: 90vh;}
+
 /* fadin */ 
 
 .fade-in {
